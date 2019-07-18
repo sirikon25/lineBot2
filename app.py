@@ -29,7 +29,11 @@ def callback():
         sendText(user,'ชวนจริ๊งงง')
     else :
         sendText(user,'ว่าไงนะ')
-
+    elif (userText == 'รักนะคะ') :
+        sendText(user,'รักเหมือนกันค่ะ')
+    elif (userText == 'คิดถึงนะ') :
+        sendText(user,'คิดถึงมากกว่า')
+        
     return '',200
 
 def sendText(user, text):
