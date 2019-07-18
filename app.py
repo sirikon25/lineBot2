@@ -27,13 +27,13 @@ def callback():
         sendText(user,'ไปไหนอ่ะ')
     elif (userText == 'ไปนะ') :
         sendText(user,'ชวนจริ๊งงง')
-    else :
-        sendText(user,'ว่าไงนะ')
     elif (userText == 'รักนะคะ') :
         sendText(user,'รักเหมือนกันค่ะ')
     elif (userText == 'คิดถึงนะ') :
         sendText(user,'คิดถึงมากกว่า')
-        
+    else :
+        sendText(user,'ว่าไงนะ')
+    
     return '',200
 
 def sendText(user, text):
