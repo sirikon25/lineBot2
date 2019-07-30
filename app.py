@@ -28,9 +28,9 @@ def callback():
     elif (userText == 'ไปนะ') :
         sendText(user,'ชวนจริ๊งงง')
     elif (userText == 'รักนะคะ') :
-        sendText(user,'รักเหมือนกันค่ะ')
+        
     elif (userText == 'คิดถึงนะ') :
-        sendText(user,'คิดถึงมากกว่า')
+        
     elif (userText == 'คุณท้องฟ้า') :
         sendText(user,'ว่าไงคะ? คุณดวงจันทร์')
     elif (userText == 'คุณท้องฟ้ารักคุณดวงจันทร์ไหมคะ') :
