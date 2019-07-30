@@ -28,9 +28,9 @@ def callback():
     elif (userText == 'ไปนะ') :
         sendText(user,'ชวนจริ๊งงง')
     elif (userText == 'รักนะคะ') :
-        
+        sendText(user,'รักเหมือนกันค่ะ')
     elif (userText == 'คิดถึงนะ') :
-        
+        sendText(user,'คิดถึงมากกว่า')
     elif (userText == 'คุณท้องฟ้า') :
         sendText(user,'ว่าไงคะ? คุณดวงจันทร์')
     elif (userText == 'คุณท้องฟ้ารักคุณดวงจันทร์ไหมคะ') :
@@ -39,6 +39,8 @@ def callback():
         sendText(user,'คุณดวงจันทร์รักคุณท้องฟ้ามากแค่ไหนคะ')
     elif (userText == 'คุณดวงจันทร์รักคุณท้องฟ้ามากๆๆๆๆเลยค่ะ') :
         sendText(user,'คุณท้องฟ้าก็รักคุณดวงจันทร์มากกเหมือนกันค่าา')
+    
+        sendText(user,':)')
     else :
         sendText(user,'ว่าไงนะ')
     
