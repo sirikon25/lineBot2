@@ -39,7 +39,7 @@ def callback():
         sendText(user,'คุณดวงจันทร์รักคุณท้องฟ้ามากแค่ไหนคะ')
     elif (userText == 'คุณดวงจันทร์รักคุณท้องฟ้ามากๆๆๆๆเลยค่ะ') :
         sendText(user,'คุณท้องฟ้าก็รักคุณดวงจันทร์มากกเหมือนกันค่าา')
-    
+    elif (userText == ':)') :
         sendText(user,':)')
     else :
         sendText(user,'ว่าไงนะ')
