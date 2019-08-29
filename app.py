@@ -23,7 +23,7 @@ def callback():
     #user = decoded["events"][0]['replyToken']
     user = decoded['originalDetectIntentRequest']['payload']['data']['replyToken']
     #userText = decoded["events"][0]['message']['text']
-    userText = decoded['queryResult']['intent']['displayName']
+    
     #sendText(user,userText)
     if (userText == 'สวัสดี') :
         sendText(user,'ดีด้วย')
